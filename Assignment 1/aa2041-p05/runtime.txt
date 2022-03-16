@@ -1,0 +1,9 @@
+Run Time: System Call for 10MB file
+10MBFile.txt --systemcalls  0.00s user 0.01s system 72% cpu 0.012 total
+
+Run Time: No System Call for 10MB file        
+10MBFile.txt  0.00s user 0.00s system 59% cpu 0.004 total
+
+The run time for the 10MB file with the system call took 72% of the CPU and ran for 0.012 seconds,
+while the run time for the 10 MB file with no system call took 59% of the CPU and ran for 0.004 seconds.
+In both of the scenarios,  the real and user time is 0.00 seconds.
